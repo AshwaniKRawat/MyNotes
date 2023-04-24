@@ -1,0 +1,12 @@
+
+java -jar abc.jar --spring.profiles.active=prod
+				           -Dspring.profiles.active=prod
+
+Parameter to provide input at runtime
+-------------------------------------
+    -Dspring.profiles.active=staging 
+    -Dspring.config.location=C:\Config
+    
+Skip maven test
+---------------
+    mvn install -Dmaven.test.skip=true
